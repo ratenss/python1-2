@@ -29,7 +29,7 @@ def parse_page(url):
 
     for block in product_blocks:
         # извлечение название оперативной памяти
-        title_tag = block.find('a', class_='indexGoods__item__name  indexGoods__item__name__3lines')
+        title_tag = block.find('a', class_='indexGoods__item__name')
         title = title_tag.text.strip() if title_tag else 'Нет названия'
 
         # извлечение цены

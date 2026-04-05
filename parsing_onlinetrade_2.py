@@ -1,3 +1,4 @@
+# Версия с повышенным временем ожидания и 3 предметами
 import time
 from selenium import webdriver
 from selenium.webdriver.common.by import By

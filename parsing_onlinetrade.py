@@ -1,3 +1,4 @@
+# Версия с автоматическим открытием браузера
 import time
 import csv
 from selenium import webdriver
